@@ -11,9 +11,8 @@ public class VendingMachineTest {
 	public void setUp(){
 		vendingMachine = new VendingMachine();
 	}
-
-	@Test
-	public void whenNickleIsPassedInVendingMachineThenReturnTrue(){
+	
+	@Test public void whenNickleIsPassedInVendingMachineThenReturnTrue(){
 		assertTrue(vendingMachine.insertNickle());
 	}
 	
