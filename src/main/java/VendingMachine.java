@@ -4,6 +4,7 @@ public class VendingMachine {
 	private double nickle = 0.05;
 	private double dime = 0.10;
 	private double quarter = 0.25;
+	public double penny = 0.01;
 	private Double totalMoney = 0.0;
 
 	public boolean insertNickle() {
